@@ -1,4 +1,4 @@
-**GoREST API Testing & Automation with Postman**
+## GoREST API Testing & Automation with Postman
 
 **Names**: INGABIRE Marie Noelle
 
@@ -11,7 +11,7 @@
 **Github Repository**:
 https://github.com/Noelle-1220/API_Testing_Formative
 
-**1.API Choice**
+## 1.API Choice
 
 To carry out this assignment , I used GoREST as it is the best API
 because it is free, supports full CRUD(Create, Read, Update and Delete)
@@ -25,7 +25,7 @@ the account (either Github or Google). The token acts as your
 authorization proof to carry out requests like GET, POST, PUT/PATCH and
 DELETE.
 
-**2. GoREST API Endpoint Documentation**
+## 2. GoREST API Endpoint Documentation
 
 <table style="width:97%;">
 <colgroup>
@@ -84,7 +84,7 @@ DELETE.
 </tbody>
 </table>
 
-**3. Authentication Process**
+## 3. Authentication Process
 
 **Method Used**: Bearer Token (GoREST Personal Access Token)
 
@@ -99,10 +99,10 @@ This way of authentication satisfies the underlying goal as a
 login-based pre-request script, but abides by GoREST’s actual token
 model rather than simulating a login flow.
 
-<img src="./media/image6.png"
+<img src="./screenshots/08_Authentication.png"
 style="width:6.26772in;height:2.54167in" />
 
-**4.Postman Environment & Variables**
+## 4.Postman Environment & Variables
 
 **GoREST Env** is a postman environment created to contain following
 variables**:**
@@ -118,10 +118,10 @@ All requests reference these variables using postman’s {{variable_name}}
 syntax. Using this method allows us to only update changes in the
 environment instead of updating each request individually.
 
-<img src="./media/image7.png"
+<img src="./screenshots/09-Variable_Environment"
 style="width:6.26772in;height:4.06944in" />
 
-**5. CRUD Operation \_ Explanation and Screenshots**
+## 5. CRUD Operation \_ Explanation and Screenshots
 
 1.  **Get all User:**
 
@@ -134,7 +134,7 @@ style="width:6.26772in;height:4.06944in" />
 
 - Screenshot:
 
-> <img src="./media/image4.png" style="width:6.14063in;height:6.25in" />
+> <img src="./screenshots/01-Get_all_users.png" style="width:6.14063in;height:6.25in" />
 
 2.  **POST - Creating my user**
 
@@ -162,12 +162,12 @@ style="width:6.26772in;height:4.06944in" />
 
 - Post-response script:
 
-> <img src="./media/image5.png"
+> <img src="./screenshots/01post_script_for_POST.png"
 > style="width:5.76563in;height:2.41667in" />
 
 - Screenshot:
 
-> <img src="./media/image11.png"
+> <img src="./screenshots/02-Creating_user"
 > style="width:6.26772in;height:4.52778in" />
 
 3.  **Get Single User**
@@ -176,7 +176,7 @@ style="width:6.26772in;height:4.06944in" />
 
 - Script:
 
-> <img src="./media/image10.png"
+> <img src="./screenshots/03b-GetSingle_script.png"
 > style="width:6.26772in;height:2.31944in" />
 
 - Response: a 200 indicating the request was successful. Reference to
@@ -184,7 +184,7 @@ style="width:6.26772in;height:4.06944in" />
 
 - Screenshot:
 
-> <img src="./media/image2.png"
+> <img src="./screenshots/03-Get_Single_User.png"
 > style="width:6.26772in;height:4.86111in" />
 
 4.  **PUT/PATCH - Update the user**
@@ -198,12 +198,12 @@ style="width:6.26772in;height:4.06944in" />
 
 > raw=\>JSON
 >
-> <img src="./media/image8.png"
+> <img src="./screenshots/04b-Update_body.png"
 > style="width:6.26772in;height:2.15278in" />
 
 - Script:
 
-> <img src="./media/image9.png"
+> <img src="./screenshots/04c-Update_script.png"
 > style="width:6.26772in;height:2.34722in" />
 
 - Response: a 200 indicating it was successful. More details reference
@@ -211,7 +211,7 @@ style="width:6.26772in;height:4.06944in" />
 
 - Screenshot:
 
-> <img src="./media/image3.png"
+> <img src="./screenshots/04-Updated_the_user.png"
 > style="width:6.26772in;height:4.91667in" />
 
 5.  **DELETE - Remove the User**
@@ -220,7 +220,7 @@ style="width:6.26772in;height:4.06944in" />
 
 - Script:
 
-> <img src="./media/image13.png"
+> <img src="./screenshots/image13.png"
 > style="width:6.26772in;height:2.05556in" />
 
 - Response: a 204 code meaning No Content which indicates the deletion
@@ -228,14 +228,14 @@ style="width:6.26772in;height:4.06944in" />
 
 - Screenshot:
 
-> <img src="./media/image12.png"
+> <img src="./screenshots/05-Deleting_the_user"
 > style="width:6.26772in;height:5.95833in" />
 
-**6. Successful Collection Runner**
+## 6. Successful Collection Runner
 
-<img src="./media/image1.png" style="width:6.26772in;height:6.875in" />
+<img src="./screenshots/06_Final_full_Run.png" style="width:6.26772in;height:6.875in" />
 
-**7. Deliverable Included in this Repository**
+## 7. Deliverable Included in this Repository
 
 - GoREST API Testing - IMN_collection.JSON
 
