@@ -1,0 +1,28 @@
+{
+	"id": "7b5769d6-5dea-4288-847e-dffe4ed91c08",
+	"name": "GoREST Env",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "auth_token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "user_id",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-08-27T14:47:51.618Z",
+	"_postman_exported_using": "Postman/12.25.2"
+}
