@@ -241,4 +241,4 @@ style="width:6.26772in;height:4.06944in" />
 
 - GoREST Env_environment.JSON
 
-- Screenshots Folder
+- Media Folder (containing screenshot used in this report as image 1-13)
